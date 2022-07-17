@@ -1,0 +1,20 @@
+2022-06-07T17:42:08+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/tobel-core/inc/core-dashboard/class-tobelcore-dashboard.php:200
+Stack trace:
+#0 /var/www/html/wp-content/plugins/tobel-core/inc/core-dashboard/class-tobelcore-dashboard.php(156): TobelCore_Dashboard->register_purchase_code('purchase_code=y...')
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1143): TobelCore_Dashboard->purchase_code_registration(Object(WP_REST_Request))
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/qode-api/v1/re...', Array, NULL)
+#3 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /var/www/html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request('/qode-api/v1/re...')
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters( in /var/www/html/wp-content/plugins/tobel-core/inc/core-dashboard/class-tobelcore-dashboard.php on line 200
+
+2022-06-07T17:48:40+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/tobel-core/inc/core-dashboard/class-tobelcore-dashboard.php:200
+Stack trace:
+#0 /var/www/html/wp-content/plugins/tobel-core/inc/core-dashboard/class-tobelcore-dashboard.php(156): TobelCore_Dashboard->register_purchase_code('purchase_code=y...')
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1143): TobelCore_Dashboard->purchase_code_registration(Object(WP_REST_Request))
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/qode-api/v1/re...', Array, NULL)
+#3 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /var/www/html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request('/qode-api/v1/re...')
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters( in /var/www/html/wp-content/plugins/tobel-core/inc/core-dashboard/class-tobelcore-dashboard.php on line 200
+

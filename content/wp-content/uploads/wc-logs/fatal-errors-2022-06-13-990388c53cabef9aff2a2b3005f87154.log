@@ -1,0 +1,4 @@
+2022-06-13T17:59:22+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/class-wp-image-editor-imagick.php on line 160
+
+2022-06-13T19:18:21+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 418
+
